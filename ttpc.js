@@ -18,9 +18,6 @@ function convertArea(txtarea, toID, txtareabenA,txtareabenB, txtareataisan) {
   txtareabenB.value = txtarea.value.substring(indexbenb+7,indexTS).trim().split("x•").join("xã").split("Chứng minh nhân dân").join("CMND").split("Căn cước công dân").join("CCCD").replace("thành phố Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu","TP. Vũng Tàu").replace("Cươ trú","Cư trú").split("•").join("ã").split("thành phố Vũng Tàu, tỉnh Bà Rịa- Vũng Tàu").join("TP. Vũng Tàu").split("thành phố Vũng Tàu").join("TP. Vũng Tàu").split("thành phố Vũng Tàu").join("TP. Vũng Tàu").split("tỉnh Bà Rịa- Vũng Tàu").join("tỉnh BRVT").split("tỉnh Bà Rịa - Vũng Tàu").join("tỉnh BRVT").split("tỉnh Bà Rịa-Vũng Tàu").join("tỉnh BRVT").split(" ánh").join(" Ánh").split(" út").join(" Út").split(" trật tự xã hội").join(" TTXH");
   
   txtareataisan.value = txtarea.value.substring(indexTS+11).trim().replace("::17ỵ17::,","").replace("x•","xã").split("thành phố Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu").join("TP. Vũng Tàu").split("•").join("ã").split("thành phố Vũng Tàu, tỉnh Bà Rịa- Vũng Tàu").join("TP. Vũng Tàu").split("thành phố Vũng Tàu").join("TP. Vũng Tàu").split("tỉnh Bà Rịa- Vũng Tàu").join("tỉnh BRVT").split("tỉnh Bà Rịa - Vũng Tàu").join("tỉnh BRVT").split("tỉnh Bà Rịa-Vũng Tàu").join("tỉnh BRVT").split(" ánh").join(" Ánh").split(" út").join(" Út").split(" trật tự xã hội").join(" TTXH");
-
-  
-  
   return 1;
 }        
 
